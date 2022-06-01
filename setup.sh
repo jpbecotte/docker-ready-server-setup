@@ -22,3 +22,6 @@ sudo curl -L "$URL" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 echo "--> Docker compose installed"
+
+sudo chmod 666 /var/run/docker.sock
+
